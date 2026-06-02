@@ -1,0 +1,16 @@
+{
+  "name": "trust-chain",
+  "version": "0.1.0",
+  "description": "Find unknown-but-credible accounts to follow on X by mining the amplification graph of people you already trust, then verifying them on track record.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "discover": "node scripts/discover.js"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.18.0"
+  },
+  "optionalDependencies": {
+    "https-proxy-agent": "^7.0.0"
+  }
+}

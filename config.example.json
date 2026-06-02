@@ -1,0 +1,9 @@
+{
+  "_comment": "Copy to config.json and edit. 'seeds' = X handles you ALREADY trust in this domain; the tool finds who they amplify. Use 2+ seeds to get cross-validated candidates (people amplified by more than one of your trusted sources).",
+  "seeds": ["replace_with_a_handle_you_trust", "replace_with_another"],
+  "domain": "the topic these seeds are credible on, e.g. semiconductors",
+  "maxPagesPerSeed": 3,
+  "readBudget": 15,
+  "cacheDir": "~/.trust-chain/cache",
+  "outputDir": "./output"
+}

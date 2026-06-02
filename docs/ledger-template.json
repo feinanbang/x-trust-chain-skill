@@ -1,0 +1,34 @@
+{
+  "_comment": "Your prediction ledger. One entry per falsifiable claim you want to track. Start entries as 'open'; later set status + fill 'verification' when the claim resolves. The examples below are synthetic — delete them and add your own.",
+  "domain": "semiconductors",
+  "entries": [
+    {
+      "id": "claim-001",
+      "author": "example_handle",
+      "domain": "semiconductors",
+      "claim": "Foundry X will reach >50% yield on its 2nm node by Q3",
+      "made": "2026-01-15",
+      "implied_resolution": "2026-Q3",
+      "status": "open",
+      "verification": {
+        "verdict": null,
+        "evidence": null,
+        "resolved_on": null
+      }
+    },
+    {
+      "id": "claim-002",
+      "author": "example_handle",
+      "domain": "semiconductors",
+      "claim": "Vendor Y begins volume shipments of component Z this quarter",
+      "made": "2026-02-01",
+      "implied_resolution": "2026-Q1",
+      "status": "confirmed",
+      "verification": {
+        "verdict": "correct",
+        "evidence": "Company press release + two independent trade-press reports corroborated volume shipment start.",
+        "resolved_on": "2026-03-20"
+      }
+    }
+  ]
+}
