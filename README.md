@@ -106,7 +106,7 @@ free X API key from [developer.x.com](https://developer.x.com).
 ```bash
 # 1. Install the skill where your AI looks for skills.
 #    For Claude Code, that's ~/.claude/skills/
-git clone https://github.com/feinanbang/trust-chain ~/.claude/skills/trust-chain
+git clone https://github.com/feinanbang/x-trust-chain-skill ~/.claude/skills/trust-chain
 
 # 2. Install its dependencies.
 cd ~/.claude/skills/trust-chain && npm install

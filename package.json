@@ -1,5 +1,5 @@
 {
-  "name": "trust-chain",
+  "name": "x-trust-chain-skill",
   "version": "0.1.0",
   "description": "Find unknown-but-credible accounts to follow on X by mining the amplification graph of people you already trust, then verifying them on track record.",
   "license": "MIT",
